@@ -20,4 +20,8 @@ func main() {
 	fmt.Println(res.Header)
 	fmt.Println(string(body))
 
+	log.Print(res.StatusCode)
+	header := http.Header(res.Header)
+	fmt.Println(header["Content-Type"])
+
 }
