@@ -1,3 +1,2 @@
 # golang
-go tool for cyber sec
-@author Serhat ÇİÇEK
+golang tool for cyber sec
